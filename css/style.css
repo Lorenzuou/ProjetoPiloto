@@ -1,0 +1,250 @@
+body {
+    overflow-x: hidden;
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.btn1 {
+    transition: all 0.2s;
+}
+
+.btn1:hover {
+    color: rgb(240, 110, 3);
+}
+
+.destaque ul {
+    background-color: #247d8a;
+    display: flex;
+}
+
+#imagemTrabalhando {
+    background-image: url(../trabalhando.jpeg);
+    background-size: cover;
+    background-position: 10%;
+    border: rgb(240, 110, 3);
+    border-style: none solid none none;
+}
+
+footer {
+    background-color: #0a4851;
+    color: #fff;
+    width: 100%;
+}
+
+#colunasIndex {
+    /*padding-top: 15vh;
+    padding-bottom: 15vh;*/
+    height: 30rem;
+    text-align: center;
+    color: #247d8a;
+}
+
+#colunasIndex h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 7rem;
+}
+
+#colunasIndex p {}
+
+footer div img {
+    margin-top: 2vh;
+    width: 85%;
+    text-align: flex;
+    font-size: 0, 7rem;
+    transition: all 0.3s;
+}
+
+footer div ul {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer div h4 {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer div h5 {
+    margin-bottom: -25px;
+}
+
+.media {
+    width: 100%;
+    padding-left: 470px;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.media img {
+    width: 6%;
+    margin-bottom: -50px;
+    text-align: center;
+    transition: all 0.3s;
+    margin-right: 5px;
+}
+
+.media ul li {
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline;
+    transition: all 0.3s;
+}
+
+header {
+    background-color: #0a4851;
+    color: #fff;
+    justify-content: center;
+    position: sticky;
+    z-index: 100;
+}
+
+header ul li a {
+    list-style: none;
+    transition: all 0.3s;
+    color: #fff;
+    font-size: 18px;
+}
+
+header ul li a:hover {
+    color: rgb(255, 153, 0);
+}
+
+#linhaLogo {
+    animation-name: linha;
+    animation-duration: 2s;
+    width: 80%;
+}
+
+@keyframes linha {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+.navbar {
+    background-color: #0a48518c;
+    height: 5.2rem;
+    transition: height 0.3s;
+}
+
+.navbar:hover {
+    transition: 0.2s;
+    background-color: #0a4851;
+}
+
+.navbar-muda {
+    height: 3rem;
+}
+
+.navbar-brand {
+    background: url(../CT-LOGO-branca-reta.png) no-repeat center;
+    background-size: contain;
+    height: 12vh;
+    width: 38vh;
+    transition: width 0.3s, height 0.3s;
+    margin-left: 5px;
+}
+
+.navbar-brand-wow {
+    height: 10vh;
+    width: 26vh;
+}
+
+#logoGrande {
+    position: relative;
+    top: 50%;
+    margin-top: -129px;
+    animation-name: aparecer;
+    animation-duration: 3s;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@media screen and (max-width:800px) {
+    .navbar-brand {
+        background: url(../logoS.png) no-repeat;
+        background-size: contain;
+        width: 10vh;
+        height: 4.5vh;
+    }
+    #navbarNav {
+        background-color: #0a4851;
+    }
+    #footerLogo {
+        width: 30vh;
+        height: auto;
+        margin-top: 14rem;
+    }
+    #logoGrande {
+        height: 70%;
+        top: 75%;
+    }
+    #colunasIndex h1 {
+        font-size: 4rem;
+    }
+}
+
+section {
+    background: #fff;
+    height: 68vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding: 50px 10px;
+    font-weight: 300;
+}
+
+.botao {
+    height: 55px;
+    width: 70%;
+    font-size: larger;
+    display: inline-block;
+    margin: 1em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    background: #247d8a;
+    color: white;
+    border: 0;
+    text-shadow: 1px 1px 1px #6e6e6e;
+    border-radius: 0.5em;
+    box-shadow: 2px 2px 0px 1px #9bc2c9;
+    transition: all 0.2s;
+}
+
+.botao:active {
+    color: rgb(255, 153, 0);
+    box-shadow: 0 0 0 0 #a4afb1;
+}
+
+.botao:hover {
+    color: #247d8a;
+    background: rgb(255, 115, 0);
+    box-shadow: rgb(75, 70, 62);
+}
+
+.txt {
+    font-size: 18px;
+    width: 100%;
+}
