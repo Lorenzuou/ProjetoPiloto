@@ -25,7 +25,7 @@ body {
 }
 
 #imagemTrabalhando {
-    background-image: url(../trabalhando.jpeg);
+    background-image: url(../img/trabalhando.jpeg);
     background-size: cover;
     background-position: 10%;
     border: rgb(240, 110, 3);
@@ -152,7 +152,7 @@ header ul li a:hover {
 }
 
 .navbar-brand {
-    background: url(../CT-LOGO-branca-reta.png) no-repeat center;
+    background: url(../img/CT-LOGO-branca-reta.png) no-repeat center;
     background-size: contain;
     height: 12vh;
     width: 38vh;
@@ -184,7 +184,7 @@ header ul li a:hover {
 
 @media screen and (max-width:800px) {
     .navbar-brand {
-        background: url(../logoS.png) no-repeat;
+        background: url(../img/logoS.png) no-repeat;
         background-size: contain;
         width: 10vh;
         height: 4.5vh;
