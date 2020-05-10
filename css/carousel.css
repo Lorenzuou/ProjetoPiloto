@@ -1,0 +1,7 @@
+.carousel-container {
+    height: 500px;
+}
+
+.carousel-item {
+    display: flex;
+}
