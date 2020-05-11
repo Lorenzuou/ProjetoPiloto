@@ -1,7 +1,23 @@
 .carousel-container {
-    height: 500px;
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
 }
 
-.carousel-item {
+.carousel-slide {
     display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imagemC {
+    height: 30rem;
+    width: auto;
+    object-fit: cover;
+    background-size: cover;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(1);
 }

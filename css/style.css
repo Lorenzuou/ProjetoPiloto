@@ -248,3 +248,55 @@ section {
     font-size: 18px;
     width: 100%;
 }
+
+.imagemC {
+    height: 15rem;
+    width: 15rem;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.carousel-item {
+    height: 30rem;
+}
+
+.carousel-inner h1,
+p {
+    color: black;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    filter: invert(1);
+}
+
+.textos {
+    margin: 0;
+    padding: 0;
+}
+
+.naosei {
+    display: flex;
+    margin: auto;
+}
+
+.texto {
+    position: absolute;
+    border-style: solid;
+    border-color: red;
+}
+
+#t1 {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+
+#t2 {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+#t3 {
+    opacity: 0;
+    transition: opacity 0.5s;
+}
