@@ -11,6 +11,20 @@
         width: 100%;
     }
     
+    .dropdown-menu {
+        background-color: #0a4851;
+        border-radius: 0;
+        border: none;
+    }
+    
+    .dropdown-menu a {
+        color: white;
+    }
+    
+    .dropdown-menu a:hover {
+        color: rgb(255, 115, 0);
+    }
+    
     .btn1 {
         transition: all 0.2s;
     }
