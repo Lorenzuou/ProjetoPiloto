@@ -322,7 +322,13 @@
     @media screen and (max-width:500px) {
         .texto {
             width: 44vh;
-            top: -25vh;
+            top: -0vh;
+        }
+        .carousel-item {
+            height: 19rem;
+        }
+        .textos {
+            height: 35rem;
         }
     }
     
