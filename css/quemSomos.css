@@ -124,3 +124,69 @@ section h1 {
     transition: border-top 0.3s;
     border-top: 2em solid #0a4851;
 }
+
+/* Seção 4 */
+
+#goal h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 115, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size: 10vh;
+    margin-top: 40px;
+}
+
+.ideal {
+    width: 90%;
+    margin: 15%;
+}
+
+.div {
+    width: 20vh;
+}
+
+#c1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#c1 img {
+    width: 35%;
+    padding-bottom: 25px;
+}
+
+#c2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#c2 img {
+    width: 35%;
+    padding-bottom: 25px;
+}
+
+#c3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#c3 img {
+    width: 35%;
+    padding-bottom: 5px;
+    padding-top: 0px;
+}
+
+
+
+
+
+/* /Seção 4 */
