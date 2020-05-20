@@ -1,18 +1,15 @@
-window.onscroll = function() { myFunction() };
+window.onscroll = function() { myFunction(), medalhas() };
 
 
 var navbar = document.getElementById("navbar");
-//var navcolap = document.getElementById("navbarResponsive");
-
 var sticky = navbar.offsetTop;
 
-var img1 = document.getElementById("img1");
+
 var anima = 0;
-
-
+var premios = document.getElementsByClassName("it");
 
 function myFunction() {
-    console.log(window.screen.width);
+
 
     if (window.pageYOffset >= sticky + 10 && window.screen.width > 800) {
         navbar.classList.add("sticky");
@@ -29,4 +26,18 @@ function myFunction() {
 
     }
 
+
+}
+
+function medalhas() {
+
+    if (anima == 0) {
+        if (window.pageYOffset >= document.getElementById("desce").offsetTop) {
+            for (var i = 0; i < premios.length; i++) {
+                premios[i].classList.add("anima");
+            }
+            anima = 1;
+        }
+
+    }
 }

@@ -211,7 +211,8 @@
             background-color: #0a4851;
         }
         #footerLogo {
-            width: 30vh;
+            width: 40vh;
+            margin-left: 25vw;
             height: auto;
             margin-top: 14rem;
         }

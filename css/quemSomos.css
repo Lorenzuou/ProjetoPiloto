@@ -59,27 +59,6 @@ section h1 {
     transition: clip-path 2s;
 }
 
-
-/* Seção 3 */
-
-#secao3 {
-    margin-top: 2rem;
-    margin-bottom: 30px;
-}
-
-#medal {
-    width: 30px;
-    margin-right: 15px;
-}
-
-#s3-content h1 {
-    margin-bottom: 30px;
-}
-
-#s3-content p {
-    font-size: 20px;
-}
-
 @-webkit-keyframes uparrow {
     0% {
         -webkit-transform: translateY(0);
@@ -126,6 +105,69 @@ section h1 {
     border-top: 2em solid #0a4851;
 }
 
+
+/* Seção 3 */
+
+#secao3 {
+    margin-top: 2rem;
+    margin-bottom: 30px;
+}
+
+#medal {
+    width: 30px;
+    margin-right: 15px;
+}
+
+#s3-content h1 {
+    margin-bottom: 30px;
+}
+
+#s3-content p {
+    font-size: 20px;
+}
+
+.it {
+    opacity: 0;
+}
+
+.anima {
+    animation: aparecer 1.5s forwards;
+}
+
+#it1 {
+    animation-delay: 0.2s;
+}
+
+#it2 {
+    animation-delay: 0.5s;
+}
+
+#it3 {
+    animation-delay: 0.8s;
+}
+
+#it4 {
+    animation-delay: 1s;
+}
+
+#it5 {
+    animation-delay: 1.2s;
+}
+
+#it6 {
+    animation-delay: 1.5s;
+}
+
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 /* Seção 4 */
 
 #goal h2 {
@@ -146,7 +188,7 @@ section h1 {
     width: 20vh;
 }
 
-#c1 {
+.c {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     text-align: center;
@@ -154,40 +196,18 @@ section h1 {
     margin-bottom: 0px;
 }
 
-#c1 img {
+.c img {
+    width: 225px;
+    height: 225px;
     width: 35%;
+    height: auto;
     padding-bottom: 25px;
 }
 
-#c2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
+.col4Texto {
+    width: 80%;
+    margin: auto;
 }
-
-#c2 img {
-    width: 35%;
-    padding-bottom: 25px;
-}
-
-#c3 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
-
-#c3 img {
-    width: 35%;
-    padding-bottom: 5px;
-    padding-top: 0px;
-}
-
-
-
 
 
 /* /Seção 4 */
