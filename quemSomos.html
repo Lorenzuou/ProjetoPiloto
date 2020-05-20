@@ -8,6 +8,7 @@
     <title>Quem Somos</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/quemSomos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         button {
             font-family: inherit;
@@ -68,59 +69,62 @@
     </header>
     <script src="js/header.js"></script>
 
-<!-- Seção 1 -->
+    <!-- Seção 1 -->
 
     <section id="secao1">
-        
-        <div id="s1-title"><h1>Quem Somos</h1></div>
-        
+
+        <div id="s1-title">
+            <h1>Quem Somos</h1>
+        </div>
+
         <div id="s1-img">
             <img src="img/s1-equipe.jpg" alt="Quem Somos">
         </div>
-        
+
     </section>
 
-<!-- /Seção 1 -->
+    <!-- /Seção 1 -->
 
 
     <section id="secao2">
 
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="zoom-in">
                 <h1> Sobre nós</h1>
                 <hr></hr>
                 <p style="text-align: justify;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur aperiam nisi delectus reiciendis tempora dicta enim quidem error possimus! Repudiandae perferendis consequuntur aliquid hic dicta officiis maxime quos, corrupti optio.Molestias
                     animi eveniet sit amet aut placeat delectus aliquam autem dolor magni molestiae, modi ut ab, sint officiis a repellendus nulla dignissimos nemo sed? Magni amet optio rerum alias exercitationem.</p>
 
 
-                <a href="#secao3" class="arrow down">Down</a>
+                <a href="#desce" class="arrow down">Down</a>
 
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6" data-aos="fade-left">
 
                 <img id="imgSobreNos" src="img/SobreNos.png" alt="Imagem ilustrativa da seção Sobre nós">
 
             </div>
         </div>
-
+        <script src="js/QuemSomos.js"></script>
 
 
     </section>
 
-<!-- Seção 3 -->
-
+    <!-- Seção 3 -->
+    <div id="desce" style="padding: 3rem;">
+    </div>
     <section id="secao3">
 
         <hr></hr>
-        <div id="s3-content" class="col-lg-12">
+        <div data-aos="zoom-in" id="s3-content" class="col-lg-12">
             <h1>Destaques e premiações</h1>
-            <p><img id="medal" src="https://img.icons8.com/cotton/64/000000/medal--v2.png"/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus obcaecati, voluptates aspernatur animi.</p>
-            <p><img id="medal" src="https://img.icons8.com/cotton/64/000000/medal--v2.png"/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus obcaecati, voluptates aspernatur animi.</p>
-            <p><img id="medal" src="https://img.icons8.com/cotton/64/000000/medal--v2.png"/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus obcaecati, voluptates aspernatur animi.</p>
-            <p><img id="medal" src="https://img.icons8.com/cotton/64/000000/medal--v2.png"/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus obcaecati, voluptates aspernatur animi.</p>
-            <p><img id="medal" src="https://img.icons8.com/cotton/64/000000/medal--v2.png"/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus obcaecati, voluptates aspernatur animi.</p>
-            <p><img id="medal" src="https://img.icons8.com/cotton/64/000000/medal--v2.png"/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus obcaecati, voluptates aspernatur animi.</p>
-            
+            <p><img id="medal" src="https://img.icons8.com/cotton/64/000000/medal--v2.png" />Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus obcaecati, voluptates aspernatur animi.</p>
+            <p><img id="medal" src="https://img.icons8.com/cotton/64/000000/medal--v2.png" />Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus obcaecati, voluptates aspernatur animi.</p>
+            <p><img id="medal" src="https://img.icons8.com/cotton/64/000000/medal--v2.png" />Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus obcaecati, voluptates aspernatur animi.</p>
+            <p><img id="medal" src="https://img.icons8.com/cotton/64/000000/medal--v2.png" />Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus obcaecati, voluptates aspernatur animi.</p>
+            <p><img id="medal" src="https://img.icons8.com/cotton/64/000000/medal--v2.png" />Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus obcaecati, voluptates aspernatur animi.</p>
+            <p><img id="medal" src="https://img.icons8.com/cotton/64/000000/medal--v2.png" />Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ducimus obcaecati, voluptates aspernatur animi.</p>
+
         </div>
         <hr></hr>
 
@@ -128,7 +132,7 @@
 
     </section>
 
-<!-- /Seção 3 -->
+    <!-- /Seção 3 -->
 
 
 
@@ -182,12 +186,15 @@
             </div>
         </div>
     </footer>
-    <script src="js/carouselPersonalizado.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
