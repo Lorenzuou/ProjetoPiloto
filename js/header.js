@@ -33,7 +33,7 @@ function myFunction() {
 function medalhas() {
 
     if (anima == 0) {
-        if (window.pageYOffset >= document.getElementById("desce").offsetTop) {
+        if (window.pageYOffset >= document.getElementById("desce").offsetTop - 14) {
             for (var i = 0; i < premios.length; i++) {
                 premios[i].classList.add("anima");
             }
