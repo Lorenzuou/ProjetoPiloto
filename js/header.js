@@ -1,6 +1,7 @@
 window.onscroll = function() { myFunction(), medalhas() };
 
 
+
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
