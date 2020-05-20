@@ -34,7 +34,7 @@ section h1 {
 }
 
 #s1-img {
-    background-image: url("/../img/s1-equipe.jpg");
+    background-image: url("../img/s1-equipe.jpg");
     opacity: .7;
     -webkit-background-size: cover;
     -moz-background-size: cover;
