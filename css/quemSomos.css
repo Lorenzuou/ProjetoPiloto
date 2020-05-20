@@ -211,3 +211,32 @@ section h1 {
 
 
 /* /Seção 4 */
+
+/* Seção 5 */
+
+#cc {
+    padding-bottom: 65px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#cc img {
+    width: 160px;
+}
+
+#cc2 {
+    padding-left: 340px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#cc2 img {
+    width: 120px;
+}
+/* /Seção 5 */
