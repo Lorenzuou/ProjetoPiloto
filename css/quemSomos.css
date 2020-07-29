@@ -66,6 +66,10 @@ section h1 {
     #imgSobreNos {
       margin-top: 2rem;
     }
+    #premios{ 
+        font-size: 15vw;
+
+    }
 } 
 @-webkit-keyframes uparrow {
     0% {
