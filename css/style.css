@@ -210,9 +210,8 @@
         }
         #footerLogo {
             width: 40vh;
-            margin-left: 25vw;
             height: auto;
-            margin-top: 14rem;
+            margin-top: rem;
         }
         #logoGrande {
             height: 70%;
@@ -223,6 +222,15 @@
         }
         .textos {
             height: 20rem;
+        }
+        .tituloL {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: rgb(255, 115, 0);
+            text-align: center;
+            font-weight: bold;
+            font-size: 11vw;
+            margin-top: 40px;
+            margin-bottom: 40px;
         }
     }
     
@@ -346,14 +354,7 @@
         /* Modern Browsers */
     }
     
-    #why h2 {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: rgb(255, 115, 0);
-        text-align: center;
-        font-weight: bold;
-        font-size: 10vh;
-        margin-top: 40px;
-    }
+   
     
     .whytho {
         width: 90%;
@@ -409,14 +410,7 @@
         padding-top: 0px;
     }
     
-    #migos h2 {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        color: rgb(255, 115, 0);
-        text-align: center;
-        font-weight: bold;
-        font-size: 65px;
-        margin-top: 40px;
-    }
+   
     
     #amigos {
         width: 80%;
@@ -429,12 +423,12 @@
         max-width: 30vh;
     }
     
-    #mapa h2 {
+    .tituloL {
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
         color: rgb(255, 115, 0);
         text-align: center;
         font-weight: bold;
-        font-size: 65px;
+        font-size: 11vh;
         margin-top: 40px;
         margin-bottom: 40px;
     }

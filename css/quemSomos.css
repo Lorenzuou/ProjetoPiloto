@@ -62,7 +62,11 @@ section h1 {
     clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
     transition: clip-path 2s;
 }
-
+@media screen and (max-width:800px) {
+    #imgSobreNos {
+      margin-top: 2rem;
+    }
+} 
 @-webkit-keyframes uparrow {
     0% {
         -webkit-transform: translateY(0);
@@ -122,11 +126,9 @@ section h1 {
     margin-right: 15px;
 }
 
-#s3-content {}
 
-#s3-content h1 {
-    margin-bottom: 30px;
-}
+
+
 
 #s3-content p {
     font-size: 20px;
@@ -248,6 +250,8 @@ section h1 {
 #cc2 img {
     width: 120px;
 }
+
+
 
 
 /* /Seção 5 */
